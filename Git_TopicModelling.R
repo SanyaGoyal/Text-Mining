@@ -8,10 +8,11 @@ library("lda")
 library("LDAvis")
 library("servr")
 library("slam")
+library("tidytext")
 
 
 # creating a corpus
-mycorpus_1 <- Corpus(VectorSource(Got_data$Text))
+mycorpus_1 <- Corpus(VectorSource(got_data$Text))
 
 
 #cleaning the corpus
