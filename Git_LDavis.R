@@ -7,9 +7,10 @@ library("Matrix")
 library("lda")
 library("LDAvis")
 library("servr")
+library("tidytext)"
 
 # creating a corpus
-mycorpus_2 <- Corpus(VectorSource(nltk$Line))
+mycorpus_2 <- Corpus(VectorSource(SanyaNLTK$Line))
 
 
 # claeaning the corpus
